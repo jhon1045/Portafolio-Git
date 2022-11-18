@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablas html</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <!--para agregar una tabla al html se utiliza la etiqueta de <table>-->
+    <table>
+           <!--debe de estar despues de table para agregar un titulo a nuestra table (Tabla) Colocamos <CAPTION><CAPTION/> -->
+            <caption >Listado De JHON</caption>
+            
+        <!--despues para agregar una fila osea (row) se utiliza la etiqueta de <tr> que significa (table row)-->
+        <tr>
+            <!--luego para agregar contenido a la <table> (tabla), <tr>(tablerow)(fila de la tabla). Colocamos un <th>(TableHead) y colocamos el contenido esto quedara al principio de la fila de la tabla-->
+            <th>Name</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </tr>
+    
+
+        <tr>
+            <!--despues para agregar una celda colocamos una etiqueta <td>(TableData)(Dato de Tabla)-->
+               <td>John</td> 
+               <!-- con colspan se conbinan las tablas horizontalmente y para indicar el numero se coloca (colspan="2") -->
+               <td >Morales</td>
+               <td>145</td>
+        </tr>
+        <tr>
+               <td>John</td> 
+                <!-- con rowspan se conbinan las tablas verticalmente y para indicar el numero se coloca (rowspan="2") -->
+               <td >Morales</td>
+               <td>145</td>
+        </tr>
+        <tr>
+               <td>John</td> 
+               <td >Morales</td>
+               <td>145</td>
+        </tr>
+        <tr>
+               <td>John</td> 
+               <td>Morales</td>
+               <td >145</td>
+        </tr>
+
+    </table>
+</body>
+</html>

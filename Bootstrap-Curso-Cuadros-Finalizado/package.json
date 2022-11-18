@@ -1,0 +1,15 @@
+{
+  "name": "bootstrap-curso-terminar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "buil": "purgecss --css sass/custom.css --content index.html  -o sass/sty.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1"
+  }
+}

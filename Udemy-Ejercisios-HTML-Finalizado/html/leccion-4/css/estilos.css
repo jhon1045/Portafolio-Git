@@ -1,0 +1,53 @@
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+body{
+    background-color: rgb(221, 211, 232);
+}
+caption{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(90, 33, 69);
+    line-height: 90px;
+}
+
+table{
+    width: 100%;
+    height: 200px;
+}
+
+table, th, tr, td{
+    border: 1px solid rgb(61, 6, 6);
+  /*   border-collapse: collapse;
+    /* border-spacing: 10px; */
+   padding: 5px;
+   /*margin: 25px;*/
+}
+
+/* si th{} esta declarado en el html o no eso no da ningun error al poner th{} en css */
+th{
+    background: rgb(44, 106, 79);
+}
+
+tr{
+    text-align: center;
+   
+}
+
+/* para seleccionar los renglones pares colocamo even (par) */
+tr:nth-child(even){
+    background: rgb(50, 54, 80);
+}
+
+/* para seleccionar los renglones impares colocamo even (impar) */
+tr:nth-child(odd){
+    background: rgb(31, 29, 12);
+}
+
+/* td{
+    text-align: center;
+    background: brown;
+} */

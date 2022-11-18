@@ -1,0 +1,5 @@
+package com.spring.demo.modelo;
+
+public class Persona {
+
+}

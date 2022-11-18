@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color:#2337a9;
+}
+
+/* editar los link en css*/
+
+a:link{
+    color: #16746f;
+    text-decoration: none;
+}
+/* cambiar color cuando ya lo ayan visitado*/
+
+a:visited{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: blueviolet;
+    border: 1px solid black;
+}

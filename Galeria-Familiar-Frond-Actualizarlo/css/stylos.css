@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgb(214, 201, 201), rgb(214, 201, 201));
+}
+
+.titulo{
+    font-size: 60px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: lighter;
+     
+}
+
+.galeria img{
+    box-shadow: 0px 1px 3px rgb(0, 0, 0, .12), 0 1px 2px rgb(0, 0, 0, .24);
+    transition: all 0,3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 15px;
+}
+
+.galeria img:hover{
+    box-shadow: 0 14px 28px rgb(0,0,0,0.25), 0 10px 10px rgb(0, 0, 0,0.22);
+}
+

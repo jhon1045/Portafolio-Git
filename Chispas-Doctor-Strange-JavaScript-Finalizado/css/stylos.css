@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  
+    background: black;
+}
+
+#portal{
+    margin: auto;
+    margin-top: 200px;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 0 0 100px 40px rgb(176, 189, 156);
+    animation: coco 3s linear infinite ;
+}  
+.chispa{
+    position: absolute;
+    width: 1px;
+    height: 100px;
+    background:linear-gradient(orange,
+            black);
+    margin: auto;
+    transform-origin: top left;
+    animation: rasize 1s ease-in-out infinite;
+  
+}
+
+
+@keyframes rasize {
+    0% { height: 100px; }
+    50% {height: 150px; }
+    100% { height: 100px;}
+}
+
+@keyframes coco {
+    
+
+    to {
+        transform: rotate(365deg);
+    }
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style:none ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#popo{
+   
+    background: darkblue;
+    width: 600px;
+    height: 90px;
+    cursor: pointer;
+}
+
+.cajas{
+    position: relative;
+    width: 50px;
+    height: 200px;
+    background: red;
+    margin: 30px;
+    cursor: pointer;
+}
+input{
+    padding: 10px;
+    
+}
+button{
+    padding: 10px;
+    cursor: pointer;
+}
+
+#caja2{
+
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background: yellow;
+}

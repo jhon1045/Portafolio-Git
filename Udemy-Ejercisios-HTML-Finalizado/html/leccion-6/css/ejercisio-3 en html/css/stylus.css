@@ -1,0 +1,17 @@
+.arriba{
+    text-align: center;
+    font-size:40px;
+    
+}
+
+.cuerpo{
+    width: 100%;
+    height: 200px;
+    border: none;
+    border: 1px solid brown;
+}
+
+.centrar{
+    text-align: center;
+    margin: 25px;
+}

@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Covered+By+Your+Grace&family=Lovers+Quarrel&family=Nova+Cut&display=swap');
+
+
+
+
+:root{
+    --font1:'Covered By Your Grace', cursive;
+    --font2:'Cedarville Cursive', cursive;
+    --font3:'Nova Cut', cursive;
+    --font4:'Lovers Quarrel', cursive;
+    --gradient-very-light-red: hsl(13, 100%, 72%);
+    --gradient-light-red: hsl(353, 100%, 72%);
+    --padding-container: 30px 0;
+    --gradient-very-light-blue: hsl(186, 66%, 57%);
+    --gradient-light-groov: hsl(353, 62%, 70%);
+
+}
+
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+   font-family: var(--font1);
+ 
+}
+
+.hero{
+   border-radius: 0 0 0 100px;
+    min-height: 90vh;
+    background-image: linear-gradient(var(--gradient-very-light-red), var( --gradient-light-red));
+    height: 80vh;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+
+.nav{
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    align-items: center;
+    justify-content: space-between;
+    
+  
+}
+
+.nav-img-logo{
+   width: 70px;
+
+}
+
+.hero-mein{
+    text-align: center;
+    color: rgb(24, 16, 16);
+    height: calc(100vh - 150px);
+    margin-bottom: 1em;
+    padding: var(--padding-container);
+   
+}
+
+.hero-title{
+    font-size: 2.3rem;
+    
+}
+
+.hero-parrafo{
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-top: 1em;
+   
+}
+
+.hero-btn{
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: center;
+    gap: 35px;
+   
+}
+
+.hero-cita{
+    border: 1px solid rgb(0, 0, 0);
+    color:rgb(148, 27, 27);
+    text-decoration: none;
+    padding: 12px 15px;
+    border-radius:30px;
+    font-weight: 600;
+    background: rgb(0, 0, 0);
+    
+
+
+}
+
+.hero-cita:hover{
+cursor: pointer;
+background: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border: 1px solid rgb(255, 255, 255);
+
+}
+
+/*------------------------------------------------*/
+
+.subtitle{
+    font-size: 1.7rem;
+    color: rgb(26, 26, 79);
+    text-align: center;
+   padding: 10px 0;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.subtitle1{
+    color: rgb(26, 26, 79);
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.disiner-imagen img{
+    width: 90%;
+    height: 90%;
+    margin-left: 17px;
+    padding: 10px 0;
+}
+
+.parrafo{
+    font-size: 1rem;
+    color:rgb(54, 54, 61);
+    line-height: 1.5;
+    text-align: center;
+    padding: 5px;
+}
+
+/*----------------------------------------------*/
+
+.infraestructure{
+    position: relative;
+    color: rgb(9, 9, 28);
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+.infraestructure::before{
+    content: "";
+    bottom: 0;
+    top: 23.9%;
+    z-index: -1;
+    display: block;
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(var(--gradient-very-light-blue), var(--gradient-light-groov));
+    border-radius: 0 100px 0 100px ;
+    
+}
+
+.family{
+    width: 100%;
+    
+
+}
+
+.infraestructure-container{
+    padding-bottom: 90px;
+   
+}
+.infraestructure-title{ 
+    font-size: 2rem;
+   margin-top: 70px;
+    
+   
+}
+
+.infraestructure-parrafo{
+    color:rgb(28, 28, 31);
+   width: 95%;
+   line-height: 1.5;
+   margin: 0 auto;
+   margin-top: 20px;
+   font-size: 1rem;
+
+
+}
+
+
+
+
+
+
+

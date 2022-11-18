@@ -1,0 +1,399 @@
+:root {
+    --primario: #Faa;
+    --blanco:#FBb;
+    --negro:#000;
+    --fuente: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /*Es para que 1 rem sean 10px*/
+}
+
+*,*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+/*********** globales **************/
+
+.container{
+    /* max-width: 120rem;
+    width: 90%; */
+    width: min(90%, 120rem);
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4{
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 4.8rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3.2rem;
+}
+
+h4{
+    font-size:2.8rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+/******* utilidades *********/
+
+.no-margin{
+    margin:0;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.center-text{
+    text-align: center;
+}
+
+
+/* ********header **************/
+
+.header{
+    background-image: url(../img/banner.jpg);
+    height: 60rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.blog{
+    padding: 2rem;
+}
+
+.header__text{
+    text-align: center;
+    color: white;
+    margin-top: 5rem;
+    padding: 5rem;
+}
+
+@media (min-width:768px) {
+    .barra{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+}
+
+.barra{
+    padding: 2rem;
+}
+
+.logo{
+    color: white;
+}
+
+.logo__name{
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo__bold{
+    font-weight: 600;
+    color: rgb(226, 158, 158);
+}
+
+.navegacion{
+    margin-top: 5rem;
+}
+
+@media (min-width:768px) {
+    .navegacion{
+        display: flex;
+    }
+}
+
+.navegacion__enlaces{
+    display: block;
+    padding: 1rem;
+    color: white;
+}
+
+@media (min-width:768px) {
+    .contenido-principal{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        column-gap: 2rem;
+    }
+}
+
+.entrada{
+    border-bottom: 1px solid rgb(116, 105, 105);
+    margin-bottom: 2rem;
+}
+
+.entrada:last-of-type{
+    border: none;
+    margin-bottom: 0;
+}
+
+.boton{
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    /* border: none; */
+}
+
+@media (min-width:768px) {
+    .boton{
+        display: inline-block;
+    }
+}
+
+.boton:hover{
+    cursor: pointer;
+}
+
+.boton--primario{
+    background-color: #000;
+}
+
+.boton--segundary{
+    background-color: rgb(146, 91, 55);
+}
+
+.cursos{
+    list-style: none; 
+    border-bottom: 1px solid rgb(102, 99, 99);
+    margin-bottom: 2rem;
+}
+
+/* .widget-curso{
+
+    
+    /* background-color: #000;
+}*/
+
+.cursos:last-of-type{
+    border: none;
+    margin-bottom: 0;
+}
+
+.widget-curso__label{
+    font-family: var(--fuente);
+    font-weight: bold;
+}
+
+.widget-curso__info{
+    font-weight: normal;
+}
+
+/* footer */
+
+/* @media (min-width:768px) {
+    .footer{
+        background-color: rgb(0, 0, 0);
+        border: 1px solid red;
+    }
+} */
+
+.footer{
+    background-color: #000;
+    
+}
+
+.con{
+    color: rgb(75, 14, 14);
+    /* border: 1px solid red; */
+    margin-top: 2rem;
+}
+
+/* @media (min-width:768px) {
+    .con{
+        display: flex;
+        text-align: center;
+    }
+} */
+
+/* Sobre-Nosotros */
+
+@media (min-width:768px) {
+    .sobre-nosotros{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 2rem;
+        padding: 2rem;
+    }
+
+    .sobre-nosotros__img{
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.curso{
+    padding: 3rem 0;
+    border-bottom: 1px solid rgb(117, 115, 115);
+}
+
+ @media (min-width:768px) {
+    .curso{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 2rem;
+    }
+} 
+
+.curso:last-of-type{
+    border-bottom: 0;
+}
+
+.curso_informacion{
+    margin-top: 5rem;
+}
+
+.curso__label{
+    font-family: var(--fuente);
+    font-weight: bold;
+}
+
+.curso__info{
+    font-weight: normal;
+}
+
+/* Entrada o leer Mas */
+
+.sobre-nosotros__parrafo{
+    padding: 1rem 0;
+    line-height: 3rem;
+}
+
+.center-text{
+    padding: 2rem;
+}
+
+.entrada-img{
+    border-radius: 2rem;
+}
+
+
+/* Contacto */
+
+.contacto-bg{
+    background-image: url(../img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5rem;
+}
+
+/* formulario o form */
+
+.formulario{
+    background-color: white;
+    margin: -20rem auto 0 auto;
+    width: 95%;
+    padding-bottom: 10rem;
+    border-radius: 0.8rem;
+    padding-top: 5rem;
+    border-right: 2px solid rgb(0, 0, 0) ;
+    border-top: 2px solid rgb(0, 0, 0) ;
+    border-left: 2px solid rgb(0, 0, 0) ;
+    margin-bottom: 5rem;
+    
+}
+
+.campo{
+    display: flex;
+    margin-bottom: 2rem;
+    
+}
+
+.campo__label{
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.campo__field{
+    flex: 0.9;
+    border: 1px solid rgb(134, 133, 133);
+    outline: none;
+
+}
+
+.campo__field-textarea{
+    /* display: flex;
+    flex-wrap: wrap; */
+    padding: 5rem;
+}
+
+.texarea{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

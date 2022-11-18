@@ -1,0 +1,4 @@
+spring.datasource.url=http://localhost/phpmyadmin/index.php?route=/database/sql&db=ttt
+spring.datasource.drive-class-name=com.mysql.cj.jdbc.Drive
+spring.datasource.username=root
+spring.datasource.password=mm

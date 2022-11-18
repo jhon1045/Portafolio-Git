@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont-imagen img{
+width: 35px;
+height: 35px;
+z-index: 1;
+position: absolute;
+}
+
+.lista-menu{
+  width: 200px;
+  min-height: 100vh;
+  overflow: hidden;
+  margin-top: 0px;
+  margin: 0px;
+  background-color: black;
+  position: relative;
+  z-index: 10;
+}
+
+.lista-menu ul li{
+    padding: 24px 30px;
+    color: white;
+    list-style: none;
+    text-align: center;
+
+}
+
+.lista-menu ul li:hover{
+    background-color: blueviolet;
+    display: block;
+}
+
+
+

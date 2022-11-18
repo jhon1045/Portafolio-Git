@@ -1,0 +1,15 @@
+
+h1{
+    color: rgb(29, 12, 104);
+    text-align: center;
+}
+
+p{
+    color: white;
+    background-color: rgb(135, 23, 85);
+    padding: 25px ;
+    border: 15px solid black;
+    margin:auto 50px;
+    text-align: center;
+
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(231, 226, 222);
+}
+
+.icono-menu {
+    margin: 0px 400px;
+    position: relative;
+    z-index: 10;
+}
+
+.boton{
+  vertical-align: top;
+  width: 50px;
+  cursor: pointer;
+}
+
+.links{
+    background: black;
+    box-shadow: black;
+    width: 400px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left:0;
+    transition: all .5s ease ;
+}
+
+.links ul{
+    padding: 60px 0px 6px 0px;
+    list-style: none; 
+}
+
+.links ul li{
+    color: white;
+    text-align: center;
+    padding: 60px 50px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.links ul li:hover{
+    background-color: rgb(134, 153, 153);
+}
+.active{
+    transform: translate(-600px);
+}
+
+.opacity{
+    background-color: rgb(78, 78, 78);
+    transition: 2s all ease;
+}

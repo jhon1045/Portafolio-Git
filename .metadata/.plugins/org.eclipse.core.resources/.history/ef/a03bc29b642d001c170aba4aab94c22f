@@ -1,0 +1,4 @@
+spring.datasource.urc=jdbc:mysql://localhost:3306/bd?serverTimezone
+spring.datasource.drive-class-name=com.mysql.cj.jdbc.drive
+spring.datasource.username=
+spring.datasource.password=
